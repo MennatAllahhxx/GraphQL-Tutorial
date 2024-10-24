@@ -141,4 +141,55 @@ const UserList = [
     }
 ];
 
-module.exports = { UserList };
+const MovieList = [
+    {
+        id: 1,
+        name: "Avengers Endgame",
+        yearOfPublication: 2019,
+        isInTheaters: true
+    },
+    {
+        id: 2,
+        name: "Inception",
+        yearOfPublication: 2010,
+        isInTheaters: false
+    },
+    {
+        id: 3,
+        name: "The Dark Knight",
+        yearOfPublication: 2008,
+        isInTheaters: false
+    },
+    {
+        id: 4,
+        name: "Interstellar",
+        yearOfPublication: 2014,
+        isInTheaters: false
+    },
+    {
+        id: 5,
+        name: "Spider-Man: No Way Home",
+        yearOfPublication: 2021,
+        isInTheaters: true
+    },
+    {
+        id: 6,
+        name: "The Matrix",
+        yearOfPublication: 1999,
+        isInTheaters: false
+    },
+    {
+        id: 7,
+        name: "Avatar",
+        yearOfPublication: 2009,
+        isInTheaters: false
+    },
+    {
+        id: 8,
+        name: "Joker",
+        yearOfPublication: 2019,
+        isInTheaters: false
+    }
+];
+
+module.exports = { UserList, MovieList };

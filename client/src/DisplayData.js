@@ -37,6 +37,7 @@ function DisplayData() {
 
     if (data) {
         console.log(data);
+        console.log(movieData)
     }
 
     if (error) {
@@ -58,6 +59,7 @@ function DisplayData() {
             return (
                 <div>
                     <h1>Movie Name: {movie.name}</h1>
+                    <h1>Year of Publication: {movie.yearOfPublication}</h1>
                 </div>
             )
         })}

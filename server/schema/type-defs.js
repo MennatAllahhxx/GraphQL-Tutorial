@@ -52,6 +52,7 @@ const typeDefs = gql`
         GERMANY
         ITALY
         FRANCE
+        EGYPT
     }
 `;
 

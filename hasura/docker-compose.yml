@@ -9,7 +9,7 @@ services:
   graphql-engine:
     image: hasura/graphql-engine:v2.42.0
     ports:
-      - "8080:8080"
+      - "8082:8082"
     restart: always
     environment:
       ## postgres database to store Hasura metadata
